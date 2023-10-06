@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>InfoNoticias</title>
+        <meta charset="UTF-8">
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header>
+            <nav class="nav">
+                <a class="nav-link logo" href="index.html" style="color: #000000">InfoNoticias</a>
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="politica.html">Política</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="deportes.html">Deportes</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="economia.html">Economía</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="tecnologia.html">Tecnología</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link register" href="registro.html">Registro</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="login.html">Login</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <h2>Registro</h2>
+            <article>
+                <form action="/usuario/registro"
+                      method="post">
+                    <table border="0">
+                        <tbody>
+                            <tr>
+                                <td>Nombre</td>
+                                <td><input type="text" 
+                                           required 
+                                           name="nombre" value="" size="20" /></td>
+                            </tr>
+                            <tr>
+                                <td>Apellido</td>
+                                <td><input type="text" 
+                                           required 
+                                           name="apellido" value="" size="20" /></td>
+                            </tr>
+                            <tr>
+                                <td>Correo</td>
+                                <td><input type="email" 
+                                           required
+                                           name="correo" value="" size="20" /></td>
+                            </tr>
+                            <tr>
+                                <td>Contraseña</td>
+                                <td><input type="password" 
+                                       required 
+                                       name="contraseña" value="" size="20" /></td>
+                            </tr>
+                            <tr>
+                                <td>Repetir Contraseña</td>
+                                <td><input type="password" 
+                                       required 
+                                       name="repetir-contraseña" value="" size="20" /></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td><input type="submit" value="Registrar" /></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
+            </article>
+        </section>
+        <footer>
+            Derechos Reservados InfoNoticias 2023 &COPY;
+        </footer>
+    </body>
+</html>
